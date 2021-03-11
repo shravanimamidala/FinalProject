@@ -1,0 +1,6 @@
+If you are executing in your local machine:
+  Docker Desktop
+  Python
+  Jupyter Notebook
+ 
+ 
