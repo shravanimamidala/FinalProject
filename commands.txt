@@ -1,0 +1,28 @@
+Steps to create a container
+===========================================
+Step 1: Download Docker Desktop, Python 3.6 version and Jupyter notebook in your local machine if you want to execute in your local machine
+
+Step 2 :See any images are available in your docker by executing the command
+	>> docker images
+  
+Step 3: If "ubuntu","python","jupyter/minimal-notebook" images are missing then we need to create image in the docker
+    For Ubuntu : docker run ubuntu:16.04
+    For Python : docker run -i -t python:3.6
+    For Jupyter Notebook : docker run jupyter/minimal-notebook
+    
+Step 4 : Verify whether your images are created in your docker by executing the command
+	>> docker images
+  
+Step 5 : Once jupyter/minimal-notebook image is created, You can create container for our jupyter notebook
+ >> docker run -p 8888:8888 jupyter/minimal-notebook
+ >>docker ps -->For viewing the existing containers in the docker
+ 
+ If everything is installed correctly and all the commands are executed, You can able to see the url details in the log details of the container
+ For example : 
+ To access the notebook, open this file in a browser
+    file:///home/jovyan/.local/share/jupyter/runtime/nbserver-8-open.html
+  Or copy and paste one of these URLs:
+    http://5b2ab79c3e23:8888/?token=656a8a22c....
+      or http://127.0.0.1:8888/?token=656a8a22c.....
+     
+     Here: 5b2ab79c3e23 is the Container ID
