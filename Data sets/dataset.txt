@@ -1,0 +1,3 @@
+For Face expression data sets, The data set is 30MB.So below are the links from kaggle
+
+https://www.kaggle.com/youssef2020/fase-expretion
