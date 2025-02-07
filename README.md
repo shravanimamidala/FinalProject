@@ -1,4 +1,4 @@
-# FinalProject
+# Parallelisng Pandas using DASK
 
 commands.txt and requirements.txt are files with important commands related to this project
 
